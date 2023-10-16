@@ -29,7 +29,7 @@ body {
 .container ul {
     list-style: none;
     display: flex;
-    width: 60%;
+    width: 50%;
     justify-content: space-around;
     align-items: center;
     color: rgba(245, 245, 245, 0.822);
@@ -186,13 +186,14 @@ body {
     margin-left: 30px;
 }
 
-.happyText1 h4 {
-    /* margin-right:10px; */
-}
+
 .happyText2{
     padding: 0 70px;
   border-right: 1px solid white;
     border-left: 1px solid white;
+}
+.happyText2 .txt{
+    margin-left: 50px;
 }
 .happyText3 {
   
@@ -201,7 +202,7 @@ body {
 }
 
 #aboutme {
-    height: 88vh;
+    height: 85vh;
     background-color: #2b2b2b;
     padding-top: 130px;
 }
@@ -210,7 +211,7 @@ body {
     margin-top: 0px;
     text-align: center;
     margin-left: 329px;
-    line-height: 0.1;
+    line-height: 1;
 }
 
 .aboutmeText h2 {
@@ -238,7 +239,9 @@ body {
 }
 
 .aboutmeImg img {
-    width: 80%;
+    width: 90%;
+    height: 45vh;
+    border-radius: 30px;
     vertical-align: middle;
     border-style: none;
 }
@@ -246,6 +249,9 @@ body {
 .aboutmeImg .text {
     width: 50%;
     margin-left: 70px;
+}
+.text{
+    line-height: 1.5;
 }
 
 .text h1 {
@@ -419,11 +425,29 @@ body {
     background-color: #4e4e4e;
 }
 
-.suult1 .booby1 span {
+.suult1 .booby1 .skill_2 {
     display: block;
     background-color: rgb(255, 114, 76);
     height: 5px;
-    width: 60%;
+    width: 100%;
+}
+.suult1 .booby1 .skill_1 {
+    display: block;
+    background-color: rgb(255, 114, 76);
+    height: 5px;
+    width: 90%;
+}
+.suult1 .booby1 .skill_3 {
+    display: block;
+    background-color: rgb(255, 114, 76);
+    height: 5px;
+    width: 90%;
+}
+.suult1 .booby1 .skill_4 {
+    display: block;
+    background-color: rgb(255, 114, 76);
+    height: 5px;
+    width: 50%;
 }
 
 .portfolioText {
@@ -610,6 +634,7 @@ body {
 .love {
     text-align: left;
     margin-left: 20px;
+    width: 50%;
 }
 
 .love h1,
@@ -640,6 +665,12 @@ li {
 
 .love li:hover {
     color: white;
+}
+.love .add a{
+    text-decoration: none;
+}
+.third{
+    width: 100%;
 }
 
 .hire {
